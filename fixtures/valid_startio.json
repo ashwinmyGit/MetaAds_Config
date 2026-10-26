@@ -1,0 +1,131 @@
+{
+  "global_controls": {
+    "global_ads_enabled": true,
+    "notifications_enabled": true,
+    "notification_window_start": "10:00",
+    "notification_window_end": "20:00",
+    "notifications_per_day": 1,
+    "notification_days_ahead": 7,
+    "cross_promo_close_delay_seconds": 5
+  },
+  "apps_config": {
+    "com.photofusion.holiphotoframe": {
+      "ads_enabled": true,
+      "package_valid": true,
+      "use_admob": true,
+      "startapp_app_id": "",
+      "category": "",
+      "show_banner": true,
+      "show_interstitial": true,
+      "show_rewarded": true,
+      "show_open_app": true,
+      "show_native": false,
+      "_confirm_category": "CONFIRM: set to Puzzle, Action or Racing. Left blank on purpose; not guessed."
+    },
+    "com.photofusion.navratriphotoframe": {
+      "ads_enabled": true,
+      "package_valid": true,
+      "use_admob": true,
+      "startapp_app_id": "",
+      "category": "",
+      "show_banner": true,
+      "show_interstitial": true,
+      "show_rewarded": true,
+      "show_open_app": true,
+      "show_native": false,
+      "_confirm_category": "CONFIRM: set to Puzzle, Action or Racing. Left blank on purpose; not guessed."
+    },
+    "com.photofusion.girlsphotosuiteditor.sarees.suit.dresses.women.traditional.girls.photo.editor": {
+      "ads_enabled": true,
+      "package_valid": true,
+      "use_admob": true,
+      "startapp_app_id": "",
+      "category": "",
+      "show_banner": true,
+      "show_interstitial": true,
+      "show_rewarded": true,
+      "show_open_app": true,
+      "show_native": false,
+      "_confirm_category": "CONFIRM: set to Puzzle, Action or Racing. Left blank on purpose; not guessed."
+    },
+    "com.photofusion.pfadsadmin": {
+      "ads_enabled": true,
+      "package_valid": true,
+      "use_admob": false,
+      "startapp_app_id": "PLACEHOLDER_STARTIO_APP_ID",
+      "category": "Puzzle",
+      "show_banner": true,
+      "show_interstitial": true,
+      "show_rewarded": true,
+      "show_open_app": true,
+      "show_native": false,
+      "ad_units": {
+        "banner": "ca-app-pub-3940256099942544/6300978111",
+        "interstitial": "ca-app-pub-3940256099942544/1033173712",
+        "rewarded": "ca-app-pub-3940256099942544/5224354917",
+        "open_app": "ca-app-pub-3940256099942544/9257395921",
+        "native": "ca-app-pub-3940256099942544/2247696110"
+      },
+      "_note": "Dedicated QA package; category chosen only so promos/notifications can be tested."
+    }
+  },
+  "default_fallback_config": {
+    "ads_enabled": true,
+    "use_admob": true,
+    "startapp_app_id": "",
+    "show_banner": true,
+    "show_interstitial": true,
+    "show_rewarded": true,
+    "show_open_app": false,
+    "show_native": false
+  },
+  "Category": {
+    "Puzzle": [
+      {
+        "portraitImageUrl": "https://raw.githubusercontent.com/ashwinmyGit/PF-Monetization/main/promo_fullscreen.png",
+        "portraitImageUrl2": "https://raw.githubusercontent.com/ashwinmyGit/PF-Monetization/main/promo_fullscreen.png",
+        "landscapeImageUrl": "https://raw.githubusercontent.com/ashwinmyGit/PF-Monetization/main/promo_landscape.jpg",
+        "playStoreLink": "https://play.google.com/store/apps/details?id=com.photofusion.holiphotoframe"
+      }
+    ],
+    "Action": [
+      {
+        "portraitImageUrl": "https://raw.githubusercontent.com/ashwinmyGit/PF-Monetization/main/promo_fullscreen.png",
+        "landscapeImageUrl": "https://raw.githubusercontent.com/ashwinmyGit/PF-Monetization/main/promo_landscape.jpg",
+        "playStoreLink": "https://play.google.com/store/apps/details?id=com.photofusion.navratriphotoframe"
+      }
+    ],
+    "Racing": [
+      {
+        "portraitImageUrl": "https://raw.githubusercontent.com/ashwinmyGit/PF-Monetization/main/promo_fullscreen.png",
+        "landscapeImageUrl": "https://raw.githubusercontent.com/ashwinmyGit/PF-Monetization/main/promo_landscape.jpg",
+        "playStoreLink": "https://play.google.com/store/apps/details?id=com.photofusion.girlsphotosuiteditor.sarees.suit.dresses.women.traditional.girls.photo.editor"
+      }
+    ]
+  },
+  "Notifications": {
+    "Puzzle": [
+      {
+        "title": "A new puzzle awaits",
+        "message": "Take a short break and solve today's challenge."
+      },
+      {
+        "title": "Keep your streak going",
+        "message": "One quick puzzle keeps your mind sharp."
+      }
+    ],
+    "Action": [
+      {
+        "title": "Your next mission is ready",
+        "message": "Jump back in and take on today's fight."
+      }
+    ],
+    "Racing": [
+      {
+        "title": "Engines are warm",
+        "message": "Hit the track and beat your best lap."
+      }
+    ]
+  },
+  "_readme": "Supported categories: Puzzle, Action, Racing (case-insensitive). A blank/unsupported category selects no promos or notifications; ads still work. Test IDs/placeholders only."
+}
