@@ -79,8 +79,8 @@
       "show_rewarded": true,
       "show_open_app": true,
       "show_native": false,
-      "notification_window_start": "01:38",
-      "notification_window_end": "01:39",
+      "notification_window_start": "01:49",
+      "notification_window_end": "01:50",
       "_note": "QA-only entry for the template package name; category chosen so notifications can be tested. Window is per-app and must be re-timed before each test."
     }
   },
@@ -138,5 +138,5 @@
       }
     ]
   },
-  "_readme": "QA fixture: template package urpblank, category Puzzle, per-app notification window 01:38-01:39. Not production. Test IDs only."
+  "_readme": "QA fixture: template package urpblank, category Puzzle, per-app notification window 01:49-01:50. Not production. Test IDs only."
 }
